@@ -1,0 +1,106 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: arial;
+
+}
+body{
+    width:100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: mediumseagreen;
+
+
+}
+div.container{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+ div.container{
+    font-size: 22px;
+    color: rbg(60,60,60);
+
+
+ }
+ div.container form{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    
+
+ }
+ div.container form input{
+     font-size: 16px;
+     padding: 10px 0;
+     text-align: center;
+     color: rgb(133, 125, 125);
+     max-width: 100px;
+     margin: 0 5px;
+     border-radius: 5px;
+     border:1 px solid rgba(0, 0, 0, 0.024);
+     outline: 0;
+     transition: border 0.5s;
+    
+ }
+ div.container form input:hover,
+ div.container form input:focus,
+ div.container form input:valid{
+    border:1 px solid mediumseagreen;
+
+ }
+ div.container form input::-webkit-inner-spin-button{
+    display: none;
+
+
+ }
+ div.container div{
+    width:100%;
+    display:flex;
+    align-items: center;
+
+ }
+ div.container div button{
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: mediumseagreen;
+    border: 0;
+    border-radius: 5px;
+    cursor:pointer
+
+
+
+ }
+ div.container div span{
+    margin-left: 15px;
+
+
+
+
+ }
+
+ @media   (min-width:700px) {
+     body{
+        background-color: white;
+     }
+     div.container{
+        border-radius: 0;
+        font-size: 16px;
+
+     }
+
+    div.container form input{
+        font-size: 12px;
+
+    }
+    div.container div button{
+        font-size: 12px;
+
+
+    }
+    
+ }
+ 
